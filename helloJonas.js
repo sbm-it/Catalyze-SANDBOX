@@ -8,4 +8,4 @@ var server = http.createServer(function (request, response) {
 var port = process.env.PORT || 8000
 server.listen(port);
 // Put a friendly message on the terminal
-console.log("listenign to port "+port);
+console.log("listening to port "+port);
